@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.menu_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+                    "heder"
+                    "main"
+                    "futer";
+    
+}
+.heder {
+    background-image: url(./img/hero\ image.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 100%;
+    height: 510px
+   
+}
+.img_heder {
+   width: 100%;
+   height: 800px;
+}
+.cub_menu_content {
+    display: grid;
+    grid-template-columns: 9% 14% 74%;
+    grid-template-rows: 40vh ;
+    margin: auto;
+    grid-row-gap: 3px;
+    
+}
+.cub_obertka{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+     align-content: center;
+     grid-template-columns: repeat(2,1fr);
+     display: grid;
+     position: relative;
+}
+.cub_heder1 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #FF7400;
+    transform: rotate(-50deg);  
+}
+.cub_heder2 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #FF7400;
+    transform: rotate(-50deg);
+    top: 76px;
+    left: 32px;
+    position: absolute;
+}
+.munu_heder_obertka{
+    /* background: blue; */
+    color: #fff;
+    display: grid;
+    grid-template-columns: 11% 9% 10% 8% 4% 2% 29% 19%;
+    align-content: center;
+    align-items: center;
+   
+}
+.br{
+    width: 2px;
+    height: 60px;
+    background: #FFFFFF;
+} 
+
+.telepohn{
+    width: 25px;
+    height: 19px;
+}
+   
+
+.brn_zakazat{
+    width: 100%;
+    height: 80%;
+    background: #FF7400;
+    border: none;
+}
+.cort_heder{
+    width: 20px;
+    height: 20px;
+ }
+ .dobro_poj_content{
+    width: 100%;
+    height: 49%;
+    display: grid;
+    font-size: 1.3em;
+    grid-template-columns: 8% 30%;
+    grid-template-rows: 20% 15% 15%;
+    color: #D67E35;
+    text-align: center;
+   
+    
+ }
+.p1_heder{
+    font-size: 2em;
+}
+.h6_heder{
+    color: #fff;
+    position: relative;
+}
+.h6_heder::after{
+    content: " ";
+    top: 8px;
+    left: 45px;
+    width: 42px;
+    height: 2px;
+    background: #C4C4C4;
+    position: absolute;
+
+}
+.h6_heder::before{
+    content: " ";
+    top: 8px;
+    left: 237px;
+    width: 42px;
+    height: 2px;
+    background: #C4C4C4;
+    position: absolute;
+
+}
+.view_menu{
+    width: 150px;
+    height: 30px;
+    font-size: 0.7em;
+    color: #fff;
+    background: #FF7400;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: grid;
+  
+    
+}
+.main { 
+    width: 100%;
+    /* background: red; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.blanck_main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,22%);
+    grid-template-rows: 100% ;
+    justify-content:space-evenly;
+    position: relative;
+    
+}
+
+.cart1_main {
+    top: -82px;
+    left: 93px;
+    width: 22%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 90%;
+    grid-template-rows: 41% 16% 70%;
+    box-shadow: 3px 14px 10px 1px;
+}
+.Rectangle_main{
+    width: 40%;
+    height: 90%;
+    display: grid;
+    margin: auto;
+    
+}
+.cart2_main {
+    top: -79px;
+    left: 39%;
+    width: 22%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 90%;
+    grid-template-rows: 41% 16% 70%;  
+    box-shadow: 3px 14px 10px 1px;
+}
+.cart3_main {
+    top: -79px;
+    left: 69.5%;
+    width: 22%;
+    height: 100%;
+    background:#fff;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 90%;
+    grid-template-rows: 41% 16% 70%;
+    box-shadow: 3px 14px 10px 1px;
+}
+.cart1_main_p1{
+    color: #BC9060;
+}
+.strocka{
+    color: #656363;
+}
+.history_block_main{
+    width: 84%;
+    margin: auto;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 28% 72%;
+    text-align: center;
+}
+
+.block1_history {
+}
+.heading_history_main {
+    height: 91%;
+}
+.heading_history_main_span {
+    color: #D67E34;
+}
+.history_main {
+    color: #656363;
+}
+.block_number_main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 40px;
+}
+.nuber1_main {
+    color: #000000;
+}
+.nuber1_main > span{
+    color: #BC9060;
+}
+.history_charts {
+}
+.futer {
+    background: blue;
+    grid-area: futer;
+}
