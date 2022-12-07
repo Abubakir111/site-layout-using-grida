@@ -9,8 +9,7 @@
     /* grid-template-rows: repeat(3,1fr); */
     grid-template-areas: 
                     "heder"
-                    "main"
-                    "futer";
+                    "main";
     
 }
 .heder {
