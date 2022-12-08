@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-size: cover;  
     width: 100%;
-    height: 510px  
+    height: 710px;
 }
 .img_heder {
    width: 100%;
@@ -41,17 +41,17 @@
      position: relative;
 }
 .cub_heder1 {
-    width: 50px;
-    height: 50px;
+    width: 57px;
+    height: 57px;
     border: 3px solid #FF7400;
-    transform: rotate(-50deg);  
+    transform: rotate(-50deg); 
 }
 .cub_heder2 {
-    width: 50px;
-    height: 50px;
+    width: 57px;
+    height: 57px;
     border: 3px solid #FF7400;
     transform: rotate(-50deg);
-    top: 68px;
+    top: 123px;
     left: 32px;
     position: absolute;
 }
@@ -62,7 +62,7 @@
     align-content: center;
     align-items: center;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;  
 }
 .glavmone:hover{
@@ -103,11 +103,11 @@
 }
 .btn_zakazat{
     width: 100%;
-    height: 84%;
+    height: 112%;
     background: #FF7400;
     border: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: 620;
     color: #fff;
     line-height: 1px;
@@ -143,7 +143,7 @@
 .h6_heder::after{
     content: " ";
     top: 11px;
-    left: 28px;
+    left: 100px;
     width: 42px;
     height: 2px;
     background: #C4C4C4;
@@ -152,15 +152,15 @@
 .h6_heder::before{
     content: " ";
     top: 11px;
-    left: 253px;
+    left: 340px;
     width: 42px;
     height: 2px;
     background: #C4C4C4;
     position: absolute;
 }
 .view_menu{
-    width: 142px;
-    height: 46px;
+    width: 164px;
+    height: 71px;
     font-size: 0.7em;
     color: #fff;
     background: #FF7400;
@@ -179,18 +179,18 @@
     /* background: red; */
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 250px 364px 318px 171px 433px 83px 849px 554px 658px 587px 542px;
+    grid-template-rows: 408px 828px 347px 442px 493px 83px 1160px 742px 932px  1041px  722px;
 }
 .blanck_main {
     width: 100%;
     height: 65vh;
     display: grid;
     grid-template-columns: repeat(3,22%);
-    grid-template-rows: 100% ;
-    justify-content:space-evenly;
+    grid-template-rows: 100%;
+    justify-content: space-evenly;
     position: relative;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 .cart1_main {
@@ -208,11 +208,10 @@
     box-shadow: 3px 14px 10px 1px;
 }
 .Rectangle_main{
-    width: 40%;
-    height: 90%;
+    width: 58%;
+    height: 98%;
     display: grid;
-    margin: auto;
-    
+    margin: auto; 
 }
 .cart2_main {
     top: -79px;
@@ -254,8 +253,9 @@
     height: 250px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 28% 72%;
+    grid-template-rows: 50% 100%;
     text-align: center;
+    font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -282,30 +282,32 @@
 }
 .history_charts {
     position: relative;
+    left: 110px;
 }
 
 .img_main_bloc1{
-    top: 14px;
-    left: 39px;
-    width: 191px;
-    height: 225px;
+    top: -73px;
+    left: 1px;
+    width: 254px;
+    height: 334px;
     z-index: 1;
     position: absolute;
 }
 
 .img_main_bloc2{
-    top: 124px;
-    left: 266px;
-    width: 155px;
-    height: 170px;
+    top: 95px;
+    left: 280px;
+    width: 210px;
+    height: 272px;
     z-index: 1;
     position: absolute;
+
 }
 .img_main_bloc3{
-    top: -12px;
+    top: -114px;
     left: 161px;
-    width: 153px;
-    height: 250px;
+    width: 266px;
+    height: 421px;
     z-index: 0;
     position: absolute;
 }
@@ -336,19 +338,19 @@
 
 .block3_tex_span1 {
     font-weight: 580;
-    font-size: 2em;
+    font-size: 3em;
     color: #D67E34;
     font-family: 'Times New Roman', Times, serif;
 }
 .block3_tex_span2 {
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFFFFF;
 }
 .block3_btn {
     align-items: center;
-    width: 204px;
-    height: 58px;
+    width: 228px;
+    height: 84px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.4em;
     font-weight: 620;
@@ -363,7 +365,7 @@
     background: #f39344; 
 }
 .block4_content{
-    font-size: 2.3em;
+    font-size: 4.3em;
     color: #000000;
     display: grid;
     font-family: 'Times New Roman', Times, serif;
@@ -376,11 +378,10 @@
 .block5_content{
     display: grid;
     grid-template-columns: 35% 60%;
-    grid-template-rows: 433px;
+    grid-template-rows: 587px;
     grid-column-gap: 10px;
     justify-content: center;
 }
-
 .block5_img1{
     width: 95%;
     height: 100%;
@@ -389,9 +390,8 @@
 .block5_burger{
     display: grid;
     grid-template-columns: 30% 68%;
-    grid-template-rows: 128px 129px 130px;
+    grid-template-rows: 177px 177px 177px;
     grid-gap: 22px;
-
 }
 .block5_img2{
     width: 100%;
@@ -401,7 +401,7 @@
 .block5_tex{
     display: grid;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 2.2em;
     font-family: 'Times New Roman', Times, serif;
 }
 .block7_content{
@@ -410,7 +410,7 @@
     background-repeat: repeat;
     background-size: cover;
     width: 100%;
-    height: 168vh;
+    height: 153vh;
     display: grid;
     font-family: 'Times New Roman', Times, serif;
     grid-template-columns: 100%;
@@ -422,7 +422,7 @@
     justify-content: center;
     align-content: center;
     color: #fff;
-    font-size: 2.5em;
+    font-size: 4.2em;
 }
 .block7_burger_menu {
     display: grid;
@@ -488,16 +488,16 @@
     margin: auto;
 }
 .block7_img_tex{
-    top: 143px;
-    left: 175px;
-    width: 75px;
-    height: 75px;
+    top: 233px;
+    left: 255px;
+    width: 102px;
+    height: 102px;
     background: #D67E34;
     color: #fff;
     text-align: center;
     display: grid;
     border-radius: 50px;
-    border: 4px solid #fff;
+    border: 8px solid #fff;
     align-items: center;
     font-size: 1.5em;
     position: absolute;
@@ -506,18 +506,19 @@
     display: grid;
     width: 100%;
     text-align: center;
+    font-size: 1.5em;
 }
 .block7_img_tex1 span{
     width: 1000px;
 }
 .block7_btn{
     width: 220px;
-    height: 50px;
+    height: 77px;
     background-color: #D67E34;
     color: #fff;
     margin: auto;
     border: none;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 700;
 }
 .block7_btn:hover{
@@ -527,9 +528,11 @@
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 60px 150px 202px 40px;
+    grid-template-rows: 103px 198px 222px 111px;
     justify-content: center;
     text-align: center;
+    font-size: 1.5em;
+    background: #E5E5E5;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .block8_tex {
@@ -541,7 +544,7 @@
 .block8_img_intro {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 70% 37% 10%;
+    grid-template-rows: 104% 37% 10%;
     align-items: end;
 }
 .block8_img {
@@ -561,9 +564,11 @@
 }
 .block9_tex {
     width: 100%;
-    height: 100px;
-    font-size: 1.2em;
+    height: 250px;
+    font-size: 1.6em;
+    display: grid;
     text-align: center;
+    align-items: center;
 }
 
 .block9_texh1 > span{
@@ -572,7 +577,7 @@
 }
 .block9_img {
     width: 95%;
-    height: 433px;
+    height: 657px;
     display: grid;
     grid-template-columns: 24% 23% 23% 24%;
     grid-template-rows: 50% 50%;
@@ -611,13 +616,14 @@
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 70%;
+    grid-template-rows: 33% 70%;
 }
 .block10_tex {
     display: grid;
     text-align: center;
     align-items: start;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    align-items: center;
 }
 .block10_h1 > span{
  color: #D67E34;
@@ -644,7 +650,9 @@
     height: 94%;
 }
 .block11_content{
-    width: 100%;
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-template-rows: 20% 80%;
     height: 100%;
 }
 .block11_img{
