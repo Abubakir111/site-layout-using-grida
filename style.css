@@ -26,13 +26,13 @@
 }
 .cub_menu_content {
     display: grid;
-    grid-template-columns: 9% 14% 74%;
+    grid-template-columns: 7% 15% 78%;
     grid-template-rows: 40vh ;
     margin: auto;
     grid-row-gap: 3px;  
 }
 .cub_obertka{
-    width: 100%;
+    width: 40%;
     height: 100%;
     justify-content: center;
      align-content: center;
@@ -113,6 +113,7 @@
     line-height: 1px;
 }
 .btn_zakazat:hover{
+    cursor: pointer;
   background: #f39344;
 }
 .cort_heder{
@@ -175,6 +176,7 @@
     display: grid;  
 }
 .view_menu:hover{
+    cursor: pointer;
     background: #f39344;
 }
 .main { 
@@ -261,12 +263,16 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
+.block2_his{
+   display: none;
+}
 .heading_history_main {
     height: 91%;
 }
 .psuto_mobil_version{
+    display: none;
+}
+.psuto_mobil_version_heding{
     display: none;
 }
 .heading_history_main_span {
@@ -278,6 +284,7 @@
 .pusto_hisotry_mobil_version{
     display: none;
 }
+
 .block_number_main {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -364,6 +371,7 @@
     display: grid;
 }
 .block3_btn:hover{
+    cursor: pointer;
     background: #f39344; 
 }
 .block4_content{
@@ -525,6 +533,7 @@
     font-weight: 700;
 }
 .block7_btn:hover{
+    cursor: pointer;
     background: #f39344;
 }
 .block8_content {
