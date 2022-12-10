@@ -1145,7 +1145,7 @@
         background: #fff;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 14% 40% 23%; 
+        grid-template-rows: 10% 44% 23%;
     }
     .block7_intro2{
         background: #fff;
@@ -1199,10 +1199,10 @@
         margin: auto;
     }
     .block7_img_tex{
-        top: 143px;
-        left: 175px;
-        width: 75px;
-        height: 75px;
+        top: 191px;
+        left: 218px;
+        width: 86px;
+        height: 86px;
         background: #D67E34;
         color: #fff;
         text-align: center;
