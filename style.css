@@ -1288,10 +1288,10 @@
         color: #D67E34;
     }
     .block9_img {
-        width: 100%;
+        width: 90%;
         height: 1800px;
         display: grid;
-        grid-template-columns: 76%;
+        grid-template-columns: 100%;
         grid-template-rows: 15% 15% 15% 15% 15% 15%;
         grid-gap: inherit;
         grid-row-gap: 36px;
